@@ -1,6 +1,6 @@
 //Fase 1
 var array_de_caracteres = ['E', 'V', 'G', 'E', 'N', 'I', 'I', 'A', 'K', 'S', 'I', 'M', 'E', 'N', 'K', 'O'];
-for (let i=0; i< array_de_caracteres.length; i++)
+for (let i=0; i< array_de_caracteres.length; i++) // or console.log(array_de_caracteres.join());
 {
     console.log(array_de_caracteres[i]);
 }
@@ -74,4 +74,4 @@ for (let letra in list_de_caracteres_cognom)
 {
     list_final.push(list_de_caracteres_cognom[letra]);
 }
-list_final.forEach(letra => console.log(letra)); 
+console.log(list_final.join()); // or list_final.forEach(letra => console.log(letra)); 
